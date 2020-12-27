@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="src/css/carousel.css">
+</head>
+<body>
+    
+    <div class="carousel" id="carousel-1">
+        <div class="carousel__ballBox">
+            <a href="#" class="carousel__ballLink"><div class="carousel__ball carousel__ball--red" data-id="01"></div></a>
+            <a href="#" class="carousel__ballLink"><div data-id="02" class="carousel__ball"></div></a>
+            <a href="#" class="carousel__ballLink"><div data-id="03" class="carousel__ball"></div></a>
+        </div>
+        <div class="carousel__sliders">
+            <img class="carousel__slide carousel__slide--visible" data_id="01" src="src/img/wallhaven-96qy3w.jpg" alt="">
+            <img class="carousel__slide" data_id="02" src="src/img/wallhaven-eyl1xr.jpg" alt="">
+            <img class="carousel__slide" data_id="03" src="src/img/wallhaven-p27wge.png" alt="">
+        </div>
+    </div>
+
+    <div class="carousel" id="carousel-2">
+        <div class="carousel__ballBox">
+            <a class="carousel__ballLink" href="#"><div data-id="01" class="carousel__ball carousel__ball--red"></div></a>
+            <a class="carousel__ballLink" href="#"><div data-id="02" class="carousel__ball"></div></a>
+        </div>
+        <div class="carousel__sliders">
+            <img class="carousel__slide  carousel__slide--visible" data-id="01" src="src/img/wallhaven-p8dpwp.jpg" alt="">
+            <img class="carousel__slide" src="src/img/wallhaven-q6g1e5.png" data-id="02" alt="">
+        </div>
+    </div>
+
+
+    <script src="src/js/carousel.js" type="module"></script>
+</body>
+</html>
